@@ -1,0 +1,29 @@
+#video-canvas{
+    width:640px;
+    height:480px;
+
+    position:relative;
+}
+
+#js-local-stream{
+    width:640px;
+    height:480px;
+
+    position:absolute;
+    z-index:1;
+}
+
+#js-remote-streams video{
+    width:640px;
+    height:480px;
+}
+
+.listner{
+    display: none;
+}
+
+.presenter{
+    width:1720px;
+    height:1080px;
+    display: block;
+}

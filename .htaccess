@@ -1,0 +1,4 @@
+SetEnvIf Host "^totonomi.prodbyfit.com$" host
+order deny,allow
+deny from all
+allow from env=host
